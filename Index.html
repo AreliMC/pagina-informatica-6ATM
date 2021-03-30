@@ -1,0 +1,208 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <link rel="canonical" href="https://getbootstrap.com/docs/3.4/examples/carousel/">
+
+    <title>Carousel Template for Bootstrap</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+   
+   
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/carrusel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Accesos</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Inicio</a></li>
+                <li><a href="Galería.html">Galería</a></li>
+                <li><a href="Información.html">Información</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="Imagenes/patron 5.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Delitos cibernéticos</h1>
+              <p>Por internet también es delito</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="Imagenes/patron 6.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Contactos</h1>
+              <p>Información sobre donde puedes acudir</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="Imagenes/patron 7.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>No estás solo</h1>
+              <p>Busca ayuda. Siempre habrá quien te tienda la mano</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="Imagenes/interrogación.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>¿Qué puedo hacer?</h2>
+          <p align="justify">No lo veas como una nimiedad. El acoso cibernetico es un tema serio. Si tú o alguien a quien conozcas pasa por esto, tratalo como lo que es, acoso. Busca apoyo con gente cercana a ti y contacta con las autoridades. En el area de información encontrarás referencias de contacto.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="Imagenes/compu.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>¿Es algo común?</h2>
+          <p align="justify">Los delitos ciberneticos son cada vez más comunes con la llegada de las nuevas tecnologías. Actualmente, son parte de nuestra realidad. Por esto, siempre hay que ir con precaución al navegar en la red.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="Imagenes/martillo.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>¿Esto es delito?</h2>
+          <p align="justify">En México, los delitos ciberneticos ya están penados en la constitución. Se pueden recibir incluso condenas de carcel por ellos.</p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Difamación en la red<span class="text-muted"></span></h2>
+          <p class="lead">Cualquier acusación falsa destinada a manchar la imagen de quien la recibe es un delito cibernético. </p>
+        </div>
+        <div class="col-md-5">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-9 col-md-push-5">
+          <h2 class="featurette-heading">Grooming<span class="text-muted"></span></h2>
+          <p class="lead">Se trata de la acción deliberada de un adulto de acosar sexualmente a un niño, niña o adolescente mediante el uso de Internet, a través de comunicaciones electrónicas, telecomunicaciones o cualquier otra tecnología de transmisión de datos.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Porno venganza<span class="text-muted"></span></h2>
+          <p class="lead">La difusión no consentida de imágenes privadas, es la publicación de contenidos, generalmente imágenes con contenido sexual explícito o sugerente, sin el consentimiento del individuo que aparece representado y que fueron tomadas dentro de un ámbito privado. Esto es un delito penado fuertemente en México.</p>
+        </div>
+        <div class="col-md-5">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+      <!-- Contador de visitas -->
+      <center><a href="http://www.websmultimedia.com/contador-de-visitas-gratis" title="Contador De Visitas Gratis">
+      <img style="border: 0px solid; display: inline;" alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=292247"></a><br><a href='http://www.websmultimedia.com/contador-de-visitas-gratis'></a><br><a href='http://www.websmultimedia.com'></a></center>
+      <!-- Fin Contador de visitas -->
+    </div><!-- /.container -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Volver arriba</a></p>
+        <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+      
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+     <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
